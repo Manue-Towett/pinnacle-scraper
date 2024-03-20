@@ -1,0 +1,18 @@
+{
+    "league": "MLB",
+    "game_odds": [
+        {
+            "game": {
+                "game_id": 1587868557,
+                "home_team": "Los Angeles Dodgers",
+                "away_team": "San Diego Padres",
+                "has_markets": true,
+                "start_time": "2024-03-21T10:05:00Z"
+            },
+            "home_spread": -1.5,
+            "away_spread": 1.5,
+            "home_total": "u8.5",
+            "away_total": "o8.5"
+        }
+    ]
+}

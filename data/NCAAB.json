@@ -1,0 +1,551 @@
+{
+    "league": "NCAAB",
+    "game_odds": [
+        {
+            "game": {
+                "game_id": 1587791112,
+                "home_team": "Wisconsin",
+                "away_team": "James Madison",
+                "has_markets": true,
+                "start_time": "2024-03-23T01:40:00Z"
+            },
+            "home_spread": -5.5,
+            "away_spread": 5.5,
+            "home_total": "u145.0",
+            "away_total": "o145.0"
+        },
+        {
+            "game": {
+                "game_id": 1587802691,
+                "home_team": "Bradley",
+                "away_team": "Loyola Chicago",
+                "has_markets": true,
+                "start_time": "2024-03-20T23:00:00Z"
+            },
+            "home_spread": -5.5,
+            "away_spread": 5.5,
+            "home_total": "u141.0",
+            "away_total": "o141.0"
+        },
+        {
+            "game": {
+                "game_id": 1587791164,
+                "home_team": "Auburn",
+                "away_team": "Yale",
+                "has_markets": true,
+                "start_time": "2024-03-22T20:15:00Z"
+            },
+            "home_spread": -13.0,
+            "away_spread": 13.0,
+            "home_total": "u140.5",
+            "away_total": "o140.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791113,
+                "home_team": "Florida Atlantic",
+                "away_team": "Northwestern",
+                "has_markets": true,
+                "start_time": "2024-03-22T16:15:00Z"
+            },
+            "home_spread": -2.5,
+            "away_spread": 2.5,
+            "home_total": "u142.5",
+            "away_total": "o142.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791058,
+                "home_team": "Illinois",
+                "away_team": "Morehead State",
+                "has_markets": true,
+                "start_time": "2024-03-21T19:10:00Z"
+            },
+            "home_spread": -12.0,
+            "away_spread": 12.0,
+            "home_total": "u148.5",
+            "away_total": "o148.5"
+        },
+        {
+            "game": {
+                "game_id": 1587855276,
+                "home_team": "North Carolina",
+                "away_team": "Wagner",
+                "has_markets": true,
+                "start_time": "2024-03-21T18:45:00Z"
+            },
+            "home_spread": -24.5,
+            "away_spread": 24.5,
+            "home_total": "u134.0",
+            "away_total": "o134.0"
+        },
+        {
+            "game": {
+                "game_id": 1587791061,
+                "home_team": "Gonzaga",
+                "away_team": "McNeese State",
+                "has_markets": true,
+                "start_time": "2024-03-21T23:25:00Z"
+            },
+            "home_spread": -6.5,
+            "away_spread": 6.5,
+            "home_total": "u149.5",
+            "away_total": "o149.5"
+        },
+        {
+            "game": {
+                "game_id": 1587802689,
+                "home_team": "Wake Forest",
+                "away_team": "Appalachian State",
+                "has_markets": true,
+                "start_time": "2024-03-21T00:00:00Z"
+            },
+            "home_spread": -7.5,
+            "away_spread": 7.5,
+            "home_total": "u147.5",
+            "away_total": "o147.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791098,
+                "home_team": "Connecticut",
+                "away_team": "Stetson",
+                "has_markets": true,
+                "start_time": "2024-03-22T18:45:00Z"
+            },
+            "home_spread": -26.5,
+            "away_spread": 26.5,
+            "home_total": "u146.0",
+            "away_total": "o146.0"
+        },
+        {
+            "game": {
+                "game_id": 1587839198,
+                "home_team": "Austin Peay",
+                "away_team": "Alabama A&M",
+                "has_markets": true,
+                "start_time": "2024-03-21T00:00:00Z"
+            },
+            "home_spread": -11.5,
+            "away_spread": 11.5,
+            "home_total": "u143.5",
+            "away_total": "o143.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791161,
+                "home_team": "Clemson",
+                "away_team": "New Mexico",
+                "has_markets": true,
+                "start_time": "2024-03-22T19:10:00Z"
+            },
+            "home_spread": 2.0,
+            "away_spread": -2.0,
+            "home_total": "o152.0",
+            "away_total": "u152.0"
+        },
+        {
+            "game": {
+                "game_id": 1587791059,
+                "home_team": "Washington State",
+                "away_team": "Drake",
+                "has_markets": true,
+                "start_time": "2024-03-22T02:05:00Z"
+            },
+            "home_spread": 1.5,
+            "away_spread": -1.5,
+            "home_total": "o138.0",
+            "away_total": "u138.0"
+        },
+        {
+            "game": {
+                "game_id": 1587791219,
+                "home_team": "Saint Marys CA",
+                "away_team": "Grand Canyon",
+                "has_markets": true,
+                "start_time": "2024-03-23T02:05:00Z"
+            },
+            "home_spread": -5.5,
+            "away_spread": 5.5,
+            "home_total": "u131.5",
+            "away_total": "o131.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791060,
+                "home_team": "Iowa State",
+                "away_team": "South Dakota State",
+                "has_markets": true,
+                "start_time": "2024-03-21T23:35:00Z"
+            },
+            "home_spread": -15.5,
+            "away_spread": 15.5,
+            "home_total": "u135.5",
+            "away_total": "o135.5"
+        },
+        {
+            "game": {
+                "game_id": 1587802690,
+                "home_team": "Indiana State",
+                "away_team": "SMU",
+                "has_markets": true,
+                "start_time": "2024-03-20T23:00:00Z"
+            },
+            "home_spread": -8.0,
+            "away_spread": 8.0,
+            "home_total": "u158.0",
+            "away_total": "o158.0"
+        },
+        {
+            "game": {
+                "game_id": 1587791049,
+                "home_team": "Montana State",
+                "away_team": "Grambling",
+                "has_markets": true,
+                "start_time": "2024-03-20T22:40:00Z"
+            },
+            "home_spread": -4.5,
+            "away_spread": 4.5,
+            "home_total": "u135.5",
+            "away_total": "o135.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791054,
+                "home_team": "Kentucky",
+                "away_team": "Oakland",
+                "has_markets": true,
+                "start_time": "2024-03-21T23:10:00Z"
+            },
+            "home_spread": -13.5,
+            "away_spread": 13.5,
+            "home_total": "u163.0",
+            "away_total": "o163.0"
+        },
+        {
+            "game": {
+                "game_id": 1587791166,
+                "home_team": "San Diego State",
+                "away_team": "UAB",
+                "has_markets": true,
+                "start_time": "2024-03-22T17:45:00Z"
+            },
+            "home_spread": -7.0,
+            "away_spread": 7.0,
+            "home_total": "u138.5",
+            "away_total": "o138.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791050,
+                "home_team": "Boise State",
+                "away_team": "Colorado",
+                "has_markets": true,
+                "start_time": "2024-03-21T01:10:00Z"
+            },
+            "home_spread": 3.5,
+            "away_spread": -3.5,
+            "home_total": "o143.5",
+            "away_total": "u143.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791134,
+                "home_team": "Houston",
+                "away_team": "Longwood",
+                "has_markets": true,
+                "start_time": "2024-03-23T01:20:00Z"
+            },
+            "home_spread": -24.0,
+            "away_spread": 24.0,
+            "home_total": "u128.0",
+            "away_total": "o128.0"
+        },
+        {
+            "game": {
+                "game_id": 1587802700,
+                "home_team": "Villanova",
+                "away_team": "Va Commonwealth",
+                "has_markets": true,
+                "start_time": "2024-03-21T01:00:00Z"
+            },
+            "home_spread": -8.5,
+            "away_spread": 8.5,
+            "home_total": "u132.0",
+            "away_total": "o132.0"
+        },
+        {
+            "game": {
+                "game_id": 1587791052,
+                "home_team": "Mississippi State",
+                "away_team": "Michigan State",
+                "has_markets": true,
+                "start_time": "2024-03-21T16:15:00Z"
+            },
+            "home_spread": 1.5,
+            "away_spread": -1.5,
+            "home_total": "o130.0",
+            "away_total": "u130.0"
+        },
+        {
+            "game": {
+                "game_id": 1587858482,
+                "home_team": "Texas",
+                "away_team": "Colorado State",
+                "has_markets": true,
+                "start_time": "2024-03-21T21:50:00Z"
+            },
+            "home_spread": -3.0,
+            "away_spread": 3.0,
+            "home_total": "u144.5",
+            "away_total": "o144.5"
+        },
+        {
+            "game": {
+                "game_id": 1587870847,
+                "home_team": "Tarleton State",
+                "away_team": "Abilene Christian",
+                "has_markets": true,
+                "start_time": "2024-03-20T23:00:00Z"
+            },
+            "home_spread": -5.5,
+            "away_spread": 5.5,
+            "home_total": "u145.0",
+            "away_total": "o145.0"
+        },
+        {
+            "game": {
+                "game_id": 1587791071,
+                "home_team": "Kansas",
+                "away_team": "Samford",
+                "has_markets": true,
+                "start_time": "2024-03-22T01:55:00Z"
+            },
+            "home_spread": -6.5,
+            "away_spread": 6.5,
+            "home_total": "u153.5",
+            "away_total": "o153.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791073,
+                "home_team": "Arizona",
+                "away_team": "Long Beach State",
+                "has_markets": true,
+                "start_time": "2024-03-21T18:00:00Z"
+            },
+            "home_spread": -20.5,
+            "away_spread": 20.5,
+            "home_total": "u163.5",
+            "away_total": "o163.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791053,
+                "home_team": "Texas Tech",
+                "away_team": "NC State",
+                "has_markets": true,
+                "start_time": "2024-03-22T01:40:00Z"
+            },
+            "home_spread": -5.0,
+            "away_spread": 5.0,
+            "home_total": "u146.0",
+            "away_total": "o146.0"
+        },
+        {
+            "game": {
+                "game_id": 1587839197,
+                "home_team": "Bowling Green",
+                "away_team": "IPFW",
+                "has_markets": true,
+                "start_time": "2024-03-20T23:00:00Z"
+            },
+            "home_spread": -1.0,
+            "away_spread": 1.0,
+            "home_total": "u149.5",
+            "away_total": "o149.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791114,
+                "home_team": "Marquette",
+                "away_team": "Western Kentucky",
+                "has_markets": true,
+                "start_time": "2024-03-22T18:00:00Z"
+            },
+            "home_spread": -14.0,
+            "away_spread": 14.0,
+            "home_total": "u158.0",
+            "away_total": "o158.0"
+        },
+        {
+            "game": {
+                "game_id": 1587802699,
+                "home_team": "Cincinnati",
+                "away_team": "San Francisco",
+                "has_markets": true,
+                "start_time": "2024-03-21T01:00:00Z"
+            },
+            "home_spread": -7.5,
+            "away_spread": 7.5,
+            "home_total": "u142.5",
+            "away_total": "o142.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791133,
+                "home_team": "Utah State",
+                "away_team": "TCU",
+                "has_markets": true,
+                "start_time": "2024-03-23T01:55:00Z"
+            },
+            "home_spread": 4.0,
+            "away_spread": -4.0,
+            "home_total": "o150.5",
+            "away_total": "u150.5"
+        },
+        {
+            "game": {
+                "game_id": 1587802688,
+                "home_team": "Princeton",
+                "away_team": "UNLV",
+                "has_markets": true,
+                "start_time": "2024-03-21T00:00:00Z"
+            },
+            "home_spread": -4.0,
+            "away_spread": 4.0,
+            "home_total": "u140.0",
+            "away_total": "o140.0"
+        },
+        {
+            "game": {
+                "game_id": 1587791051,
+                "home_team": "Tennessee",
+                "away_team": "St. Peter's",
+                "has_markets": true,
+                "start_time": "2024-03-22T01:20:00Z"
+            },
+            "home_spread": -21.5,
+            "away_spread": 21.5,
+            "home_total": "u130.0",
+            "away_total": "o130.0"
+        },
+        {
+            "game": {
+                "game_id": 1587791055,
+                "home_team": "South Carolina",
+                "away_team": "Oregon",
+                "has_markets": true,
+                "start_time": "2024-03-21T20:00:00Z"
+            },
+            "home_spread": -1.5,
+            "away_spread": 1.5,
+            "home_total": "u133.0",
+            "away_total": "o133.0"
+        },
+        {
+            "game": {
+                "game_id": 1587791057,
+                "home_team": "BYU",
+                "away_team": "Duquesne",
+                "has_markets": true,
+                "start_time": "2024-03-21T16:40:00Z"
+            },
+            "home_spread": -9.5,
+            "away_spread": 9.5,
+            "home_total": "u142.5",
+            "away_total": "o142.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791099,
+                "home_team": "Duke",
+                "away_team": "Vermont",
+                "has_markets": true,
+                "start_time": "2024-03-22T23:10:00Z"
+            },
+            "home_spread": -12.5,
+            "away_spread": 12.5,
+            "home_total": "u131.5",
+            "away_total": "o131.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791147,
+                "home_team": "Baylor",
+                "away_team": "Colgate",
+                "has_markets": true,
+                "start_time": "2024-03-22T16:40:00Z"
+            },
+            "home_spread": -14.0,
+            "away_spread": 14.0,
+            "home_total": "u138.5",
+            "away_total": "o138.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791072,
+                "home_team": "Dayton",
+                "away_team": "Nevada",
+                "has_markets": true,
+                "start_time": "2024-03-21T20:30:00Z"
+            },
+            "home_spread": 1.0,
+            "away_spread": -1.0,
+            "home_total": "o136.5",
+            "away_total": "u136.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791163,
+                "home_team": "Nebraska",
+                "away_team": "Texas A&M",
+                "has_markets": true,
+                "start_time": "2024-03-22T22:50:00Z"
+            },
+            "home_spread": -1.0,
+            "away_spread": 1.0,
+            "home_total": "u148.0",
+            "away_total": "o148.0"
+        },
+        {
+            "game": {
+                "game_id": 1587791165,
+                "home_team": "Alabama",
+                "away_team": "College of Charleston",
+                "has_markets": true,
+                "start_time": "2024-03-22T23:35:00Z"
+            },
+            "home_spread": -9.5,
+            "away_spread": 9.5,
+            "home_total": "u173.5",
+            "away_total": "o173.5"
+        },
+        {
+            "game": {
+                "game_id": 1587791056,
+                "home_team": "Creighton",
+                "away_team": "Akron",
+                "has_markets": true,
+                "start_time": "2024-03-21T17:30:00Z"
+            },
+            "home_spread": -12.5,
+            "away_spread": 12.5,
+            "home_total": "u141.5",
+            "away_total": "o141.5"
+        },
+        {
+            "game": {
+                "game_id": 1587802686,
+                "home_team": "Seton Hall",
+                "away_team": "St. Josephs",
+                "has_markets": true,
+                "start_time": "2024-03-20T23:00:00Z"
+            },
+            "home_spread": -8.0,
+            "away_spread": 8.0,
+            "home_total": "u147.5",
+            "away_total": "o147.5"
+        }
+    ]
+}

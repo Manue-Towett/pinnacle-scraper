@@ -1,0 +1,109 @@
+{
+    "league": "NBA",
+    "game_odds": [
+        {
+            "game": {
+                "game_id": 1587481906,
+                "home_team": "Cleveland Cavaliers",
+                "away_team": "Miami Heat",
+                "has_markets": true,
+                "start_time": "2024-03-20T23:10:00Z"
+            },
+            "home_spread": -2.0,
+            "away_spread": 2.0,
+            "home_total": "u204.5",
+            "away_total": "o204.5"
+        },
+        {
+            "game": {
+                "game_id": 1587481899,
+                "home_team": "Toronto Raptors",
+                "away_team": "Sacramento Kings",
+                "has_markets": true,
+                "start_time": "2024-03-20T23:40:00Z"
+            },
+            "home_spread": 11.0,
+            "away_spread": -11.0,
+            "home_total": "o233.5",
+            "away_total": "u233.5"
+        },
+        {
+            "game": {
+                "game_id": 1587565137,
+                "home_team": "Golden State Warriors",
+                "away_team": "Memphis Grizzlies",
+                "has_markets": true,
+                "start_time": "2024-03-21T02:10:00Z"
+            },
+            "home_spread": -11.0,
+            "away_spread": 11.0,
+            "home_total": "u219.0",
+            "away_total": "o219.0"
+        },
+        {
+            "game": {
+                "game_id": 1587481911,
+                "home_team": "Boston Celtics",
+                "away_team": "Milwaukee Bucks",
+                "has_markets": true,
+                "start_time": "2024-03-20T23:40:00Z"
+            },
+            "home_spread": -10.5,
+            "away_spread": 10.5,
+            "home_total": "u225.0",
+            "away_total": "o225.0"
+        },
+        {
+            "game": {
+                "game_id": 1587565219,
+                "home_team": "Oklahoma City Thunder",
+                "away_team": "Utah Jazz",
+                "has_markets": true,
+                "start_time": "2024-03-21T00:10:00Z"
+            },
+            "home_spread": -15.5,
+            "away_spread": 15.5,
+            "home_total": "u232.5",
+            "away_total": "o232.5"
+        },
+        {
+            "game": {
+                "game_id": 1587565192,
+                "home_team": "Portland Trail Blazers",
+                "away_team": "Los Angeles Clippers",
+                "has_markets": true,
+                "start_time": "2024-03-21T02:10:00Z"
+            },
+            "home_spread": 12.5,
+            "away_spread": -12.5,
+            "home_total": "o216.0",
+            "away_total": "u216.0"
+        },
+        {
+            "game": {
+                "game_id": 1587565130,
+                "home_team": "Phoenix Suns",
+                "away_team": "Philadelphia 76ers",
+                "has_markets": true,
+                "start_time": "2024-03-21T02:10:00Z"
+            },
+            "home_spread": -9.0,
+            "away_spread": 9.0,
+            "home_total": "u223.0",
+            "away_total": "o223.0"
+        },
+        {
+            "game": {
+                "game_id": 1587481997,
+                "home_team": "Detroit Pistons",
+                "away_team": "Indiana Pacers",
+                "has_markets": true,
+                "start_time": "2024-03-20T23:10:00Z"
+            },
+            "home_spread": 10.5,
+            "away_spread": -10.5,
+            "home_total": "o235.5",
+            "away_total": "u235.5"
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "league": "NHL",
+    "game_odds": [
+        {
+            "game": {
+                "game_id": 1587624133,
+                "home_team": "Edmonton Oilers",
+                "away_team": "Buffalo Sabres",
+                "has_markets": true,
+                "start_time": "2024-03-22T01:07:00Z"
+            },
+            "home_spread": -1.5,
+            "away_spread": 1.5,
+            "home_total": "u6.0",
+            "away_total": "o6.0"
+        },
+        {
+            "game": {
+                "game_id": 1587565145,
+                "home_team": "Los Angeles Kings",
+                "away_team": "Minnesota Wild",
+                "has_markets": true,
+                "start_time": "2024-03-21T02:07:00Z"
+            },
+            "home_spread": -1.5,
+            "away_spread": 1.5,
+            "home_total": "u5.5",
+            "away_total": "o5.5"
+        },
+        {
+            "game": {
+                "game_id": 1587624115,
+                "home_team": "San Jose Sharks",
+                "away_team": "Tampa Bay Lightning",
+                "has_markets": true,
+                "start_time": "2024-03-22T02:37:00Z"
+            },
+            "home_spread": 1.5,
+            "away_spread": -1.5,
+            "home_total": "o6.5",
+            "away_total": "u6.5"
+        },
+        {
+            "game": {
+                "game_id": 1587568884,
+                "home_team": "Carolina Hurricanes",
+                "away_team": "Philadelphia Flyers",
+                "has_markets": true,
+                "start_time": "2024-03-21T23:07:00Z"
+            },
+            "home_spread": -1.5,
+            "away_spread": 1.5,
+            "home_total": "u6.0",
+            "away_total": "o6.0"
+        },
+        {
+            "game": {
+                "game_id": 1587624165,
+                "home_team": "Anaheim Ducks",
+                "away_team": "Chicago Blackhawks",
+                "has_markets": true,
+                "start_time": "2024-03-22T02:07:00Z"
+            },
+            "home_spread": -1.5,
+            "away_spread": 1.5,
+            "home_total": "u6.0",
+            "away_total": "o6.0"
+        },
+        {
+            "game": {
+                "game_id": 1587568865,
+                "home_team": "Ottawa Senators",
+                "away_team": "St. Louis Blues",
+                "has_markets": true,
+                "start_time": "2024-03-21T23:07:00Z"
+            },
+            "home_spread": -1.5,
+            "away_spread": 1.5,
+            "home_total": "u6.5",
+            "away_total": "o6.5"
+        },
+        {
+            "game": {
+                "game_id": 1587624159,
+                "home_team": "Vegas Golden Knights",
+                "away_team": "Seattle Kraken",
+                "has_markets": true,
+                "start_time": "2024-03-22T02:37:00Z"
+            },
+            "home_spread": -1.5,
+            "away_spread": 1.5,
+            "home_total": "u6.0",
+            "away_total": "o6.0"
+        },
+        {
+            "game": {
+                "game_id": 1587565080,
+                "home_team": "New Jersey Devils",
+                "away_team": "Winnipeg Jets",
+                "has_markets": true,
+                "start_time": "2024-03-21T23:07:00Z"
+            },
+            "home_spread": 1.5,
+            "away_spread": -1.5,
+            "home_total": "o6.0",
+            "away_total": "u6.0"
+        },
+        {
+            "game": {
+                "game_id": 1587481887,
+                "home_team": "Washington Capitals",
+                "away_team": "Toronto Maple Leafs",
+                "has_markets": true,
+                "start_time": "2024-03-20T23:37:00Z"
+            },
+            "home_spread": 1.5,
+            "away_spread": -1.5,
+            "home_total": "o6.0",
+            "away_total": "u6.0"
+        },
+        {
+            "game": {
+                "game_id": 1587565081,
+                "home_team": "Boston Bruins",
+                "away_team": "New York Rangers",
+                "has_markets": true,
+                "start_time": "2024-03-21T23:07:00Z"
+            },
+            "home_spread": -1.5,
+            "away_spread": 1.5,
+            "home_total": "u5.5",
+            "away_total": "o5.5"
+        },
+        {
+            "game": {
+                "game_id": 1587565220,
+                "home_team": "Dallas Stars",
+                "away_team": "Arizona Coyotes",
+                "has_markets": true,
+                "start_time": "2024-03-21T00:07:00Z"
+            },
+            "home_spread": -1.5,
+            "away_spread": 1.5,
+            "home_total": "u6.5",
+            "away_total": "o6.5"
+        }
+    ]
+}
