@@ -27,11 +27,18 @@ HEADERS = {
     'x-device-uuid': 'f14b632b-febf2aca-43019d99-82ff4ddb',
 }
 
+API_HEADERS = {
+    'accept': 'application/json',
+    'Content-Type': 'application/json'
+}
+
 PARAMS = {
     'brandId': '0',
 }
 
 BASE_URL = 'https://guest.api.arcadia.pinnacle.com{}'
+
+BASE_API_URL = "http://127.0.0.1:8000{}"
 
 SPORTS_URI = "/0.1/sports?brandId=0"
 
@@ -218,7 +225,62 @@ class PinnacleScraper:
     def __save_to_json(self, data: LeagueOdds, league: str) -> None:
         with open(f"./data/{league}.json", "w") as f:
             json.dump(dataclasses.asdict(data), f, indent=4)
+    
+    def __api_get(self, uri: str, params:Optional[dict]=None) -> requests.Response:
+        headers, url = {'Content-Type': 'application/json'}, BASE_API_URL.format(uri)
+
+        while True:
+            try:
+                response = requests.get(url, headers=headers, params=params)
+
+                if response.ok:
+                    return response
+                
+            except: pass
+    
+    def __api_post(self, uri:str, payload:Optional[dict|list[dict]]) -> requests.Response:
+        url = BASE_API_URL.format(uri)
+
+        while True:
+            try:
+                response = requests.post(url, headers=API_HEADERS, json=payload)
+
+                if response.ok:
+                    return response
             
+            except: pass
+    
+    def __save_games_to_db(self, leage_odds: LeagueOdds) -> None:
+        api_league = self.__api_post("/league/", {"name": leage_odds.league})
+
+        games = [
+            {'home_team': game_odd.game.home_team,
+              'away_team': game_odd.game.away_team,
+              'has_markets': game_odd.game.has_markets,
+              'start_time': game_odd.game.start_time} for game_odd in leage_odds.game_odds]
+        
+        api_games = self.__api_post(f"/{api_league.json()['name']}/games/", games)
+
+        self.__save_odds_to_db(leage_odds.game_odds, api_games.json())
+
+    def __save_odds_to_db(self, p_odds: list[Odds], api_games: list[dict]) -> None:
+        odds = []
+
+        for p_odd in p_odds:
+            for api_game in api_games:
+                if api_game["home_team"]==p_odd.game.home_team \
+                    and api_game["away_team"]==p_odd.game.away_team \
+                        and api_game['start_time']==p_odd.game.start_time:
+                    odds.append({"game_id": api_game["id"],
+                                 "home_total": p_odd.home_total,
+                                 "away_total": p_odd.away_total,
+                                 "home_spread": p_odd.home_spread,
+                                 "away_spread": p_odd.away_spread})
+                    
+                    break
+        
+        if len(odds): self.__api_post("/odds", odds)        
+     
     def run(self, league: str) -> None:
         leagues_uri = self.__get_league_uri(league)
 
@@ -230,7 +292,12 @@ class PinnacleScraper:
 
         odds = self.__process_games_and_odds(league, games, pinnacle_odds)
 
-        self.__save_to_json(odds, league)   
+        self.logger.info("Saving {} odds for {}".format(len(odds.game_odds), league))
+
+        # self.__save_to_json(odds, league)  
+        self.__save_games_to_db(odds) 
+
+        self.logger.info("Odds saved for {}".format(league))
 
         return dataclasses.asdict(odds)     
 
@@ -244,7 +311,9 @@ if __name__ == "__main__":
 
         for league in leagues:
             try:odds.append(app.run(league))
-            except Exception as e: print(e)
+            except Exception as e: 
+                print(e)
+                break
 
             time.sleep(2)
         
